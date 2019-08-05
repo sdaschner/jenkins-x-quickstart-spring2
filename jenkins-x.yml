@@ -5,3 +5,6 @@ pipelineConfig:
       setup:
         preSteps:
         - command: mvn -v
+  agent:
+    container:  maven-java11
+#    image:  maven-java11
