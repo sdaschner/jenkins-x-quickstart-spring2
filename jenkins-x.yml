@@ -1,1 +1,7 @@
 buildPack: maven-java11
+pipelineConfig:
+  pipelines:
+    release:
+      setup:
+        preSteps:
+        - command: mvn -v
